@@ -1,0 +1,60 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  /* CSS tricks for more background images trickes
+   name: perfect-full-page-background-image(https://css-tricks.com/perfect-full-page-background-image/) */
+   background: url(img/header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+
+h1{
+	font-size:3em;
+	color: #e2dbdb; 
+}
+ 
+hr {
+	border-color:#F05F44;
+	border-width: 3px;
+	max-width: 65px;
+}
+
+.buffer {
+	height: 10rem;  /* +50px */
+}
+
+.btn {
+	font-weight: 700;
+	/* rounder button */
+	border-radius: 300px;
+	/* anathor way to appercase with css */ 
+	text-transform: uppercase; 
+}
+
+/* adding to the bootstrap style */ 
+.btn-primary {
+	background-color: #F05F44;
+	/* to eliminate the blue default border for the bootstarp theme */
+	border-color: #F05F44;
+}
+
+/* to make the button color huver change (darker blue) */
+.btn-primary:hover {
+	background-color: #ee4b08;
+	/* for the background-color and border-color to be the same */
+	border-color: #ee4b08;
+	/* To increase the border width (extra 4px) */
+	border-width: 4px;
+}
+
+.btn-xl {
+	/* larger button => 1rem :on the sides ; 2rem:top&buttom; */
+	padding: 1rem 2rem;
+}

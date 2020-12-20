@@ -1,0 +1,10 @@
+* adding e-mail section with:  https://mailchimp.com/  (free: less than 2000 contacts ; create an account  )
+                                                        you can add captcha and send confirmation a email ... 
+* email marketing service =>   https://mailchi.mp/0e57673a0148/ztmstudents
+
+* recheck: landing page ->   10. Exercise Adding Email Subscribe Form With MailChimp
+
+* Putting Your Website Online: github or ...
+
+
+                            
